@@ -1,6 +1,6 @@
 # Deteksi Suara Berisik (Noise Detection) - Kelompok 6
 
-**Proyek Kelompok 6**
+**Kelompok 6**
 
 | Nama Anggota | NIM |
 |---|---|
