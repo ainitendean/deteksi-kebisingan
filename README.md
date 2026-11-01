@@ -1,4 +1,12 @@
-# Deteksi Suara Berisik (Noise Detection)
+# Deteksi Suara Berisik (Noise Detection) - Kelompok 6
+
+**Proyek Kelompok 6**
+
+| Nama Anggota | NIM |
+|---|---|
+| Rachelia Andini Tendean | 240411100007 |
+| Ahmad Syahrul Farihin | 240411100031 |
+| Rian Renaldy | 240411100053 |
 
 Aplikasi web (Flask) yang merekam mikrofon otomatis dengan pola **rekam 10 detik, proses model, peringatan suara
 "Jangan rame!" bila berisik, jeda 5 detik, ulang** sampai dihentikan. Kebisingan dinilai **relatif terhadap ruangan tenang**
@@ -74,7 +82,7 @@ Halaman ini tidak lagi menyediakan unggah file "Ruangan tenang". Mekanisme basel
 fitur relatif terhadap ruangan tenang; bedanya baseline diambil dari kalibrasi yang sudah ada. Bila belum ada kalibrasi, halaman
 menampilkan petunjuk dan tombol menuju Streaming.
 
-## Docker (kelompok 6, port 8006)
+## Docker (Kelompok 6, port 8006)
 File yang dibutuhkan ada di root: `Dockerfile`, `docker-compose.yml`, `requirements.txt`.
 ```bash
 docker compose up --build        # build image lalu jalankan
